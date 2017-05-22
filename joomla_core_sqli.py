@@ -52,7 +52,7 @@ def get_info_by_joomla(url, param):
             return info
     except:
         return 'no info!'
-    pass
+        pass
 
 
 # 获取所有信息
@@ -84,7 +84,7 @@ def main():
         print('example: ' + sys.argv[0] + ' url')
         exit(0)  #
     target = sys.argv[1]
-    check_joomla('http://localhost/joomla')
+    #check_joomla('http://localhost/joomla')
     check_joomla(target)
 
 
